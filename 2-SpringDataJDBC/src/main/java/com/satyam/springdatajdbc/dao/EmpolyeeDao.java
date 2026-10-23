@@ -20,7 +20,7 @@ public class EmpolyeeDao {
 
     public void input(Employee emp) {
 //        int id=emp.getId();
-        jdbcTemplate.update(sql, emp.getId(),emp.getName(),emp.getCity());
+        jdbcTemplate.update(sql, emp.getId(), emp.getName(), emp.getCity());
         System.out.println("Input One");
     }
 }

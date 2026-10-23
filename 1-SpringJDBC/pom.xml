@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.satyam</groupId>
-    <artifactId>SpringJDBC</artifactId>
+    <artifactId>1-SpringJDBC</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringJDBC</name>
     <description>SpringJDBC</description>
