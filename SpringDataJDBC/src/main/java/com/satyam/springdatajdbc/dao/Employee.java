@@ -1,4 +1,4 @@
-package com.satyam.dao.model;
+package com.satyam.springdatajdbc.dao;
 
 public class Employee {
     private int id;
@@ -9,6 +9,10 @@ public class Employee {
         this.id = id;
         this.name = name;
         this.city = city;
+    }
+
+    public Employee() {
+
     }
 
     public int getId() {
