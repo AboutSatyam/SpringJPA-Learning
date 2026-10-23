@@ -1,5 +1,6 @@
 package com.satyam.springdatajdbc;
 
+import com.satyam.springdatajdbc.dao.Employee;
 import com.satyam.springdatajdbc.dao.EmpolyeeDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -12,6 +13,6 @@ public class JdbcRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        dao.input(new Empolyee(2, "Virat", "Delhi"));
+        dao.input(new Employee(2, "Virat", "Delhi"));
     }
 }
